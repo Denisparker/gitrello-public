@@ -1,0 +1,36 @@
+.Button
+  position: relative
+  border-radius: .18rem
+  display: flex
+  align-items: center
+  justify-content: center
+  user-select: none
+  transition: .5s
+  cursor: pointer
+
+  &:hover
+    background: #dfdddd
+
+  &.middle
+    height: 2.5rem
+    width: 19rem
+
+  &.small
+    height: 1.7rem
+    width: 3rem
+
+  &.shadow
+    box-shadow: .25rem 0 .375rem rgba(165, 165, 165, 0.12), 0px 4px 16px rgba(165, 165, 165, 0.22)
+
+  &.whiteColor
+    color: white
+
+  &.disabled
+    pointer-events: none
+    user-select: none
+
+  &.green
+    background: #45A243
+
+    &:hover
+      background: #368a35

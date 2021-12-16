@@ -1,0 +1,52 @@
+.Modal
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  display: flex
+  justify-content: center
+  background: rgba(0,0,0,0.5)
+
+.IssueModal
+  height: 40rem
+  width: 48rem
+  background: #F4F5F7
+  display: flex
+  justify-content: space-between
+
+.Content
+  position: relative
+  max-height: 100%
+  width: 40rem
+
+///// Description
+.Description
+  min-height: 7rem
+  max-height: 13rem
+  width: 100%
+  overflow: auto
+  &::-webkit-scrollbar
+    width: 0
+
+.DetailedDescription
+  min-height: 6rem
+  max-height: 6rem
+  width: 32rem
+  border-radius: 0.1875rem
+  background: #EAECF0
+
+.titleContainer
+  height: 1.5rem
+  display: flex
+  justify-content: flex-start
+  align-items: center
+
+///// CLOSE
+.Close
+  cursor: pointer
+  transition: .2s
+  user-select: none
+
+  &:hover
+    font-weight: 1000
